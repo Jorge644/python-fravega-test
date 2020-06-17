@@ -14,7 +14,7 @@ class search_heladera(unittest.TestCase):
         self.page.insert_element_to_found("Heladera") #just insert the string to the searh input text
         self.page.submit_search()#this method just click to the submit button
         self.page.show_all_brands_available()# click over the tag 'Ver todas' to show all available brands over the current search
-        self.page.select_specific_brand("Whirlpool")
+        self.page.select_specific_brand("Samsung")
         self.page.submit_specific_brand()
         self.page.verify_items_founded()
         
